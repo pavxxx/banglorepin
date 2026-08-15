@@ -103,11 +103,3 @@ Example response shape:
   ]
 }
 ```
-
-## Notes
-
-Postal data is supplied by the public Postal PIN Code API. Postal information can change, so users should confirm critical delivery details with India Post.
-
-## Time Estimate
-
-Designed as a focused 2–3 hour full-stack assignment: API integration, validation, responsive UI, local recent-search state, and documentation.
