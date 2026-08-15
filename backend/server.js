@@ -59,6 +59,8 @@ app.get('/api/pincode/:pincode', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`API running at http://localhost:${PORT}`);
+
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`API running on port ${PORT}`);
 });
